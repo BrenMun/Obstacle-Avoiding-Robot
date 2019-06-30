@@ -1,6 +1,5 @@
 #include <Servo.h> 
 Servo servoX; //set servoX
-Servo servoY; //set servoY
 int pinLB = 9;       // 9 drives left wheel backward
 int pinLF = 11;       // 11 drives left wheel forward 
 
