@@ -1,10 +1,10 @@
 #include <Servo.h> 
 Servo servoX; //set servoX
-int pinLB = 9;       // 9 drives left wheel backward
-int pinLF = 11;       // 11 drives left wheel forward 
+int pinLB = 9;       // 9 drives left wheel backward (pin IN1)
+int pinLF = 11;       // 11 drives left wheel forward (pin IN2)
 
-int pinRB = 6;       // 6 drives right wheel back 
-int pinRF = 3;       // 3 drives right wheel forward 
+int pinRB = 6;       // 6 drives right wheel back (pin IN3)
+int pinRF = 3;       // 3 drives right wheel forward (pin IN4)
 
 int inputPin = A0;    // pin A0 defined as ultrasonic signal reception (ECHO)
 int outputPin = A1;   // pin A1 defined as ultrasonic signal transmitter (TRIG)
